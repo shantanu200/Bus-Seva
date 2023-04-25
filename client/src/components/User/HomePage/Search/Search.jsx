@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 const Search = () => {
   const navigate = useNavigate();
   const {isLoaded} = useJsApiLoader({
-    googleMapsApiKey : "AIzaSyAyiYqBDkr0lyLYEGwQO2blfW8-0_NFJeI",
+    googleMapsApiKey : "",
     libraries:["places"],
     region:"in"
   });
